@@ -1,0 +1,17 @@
+.appbar {
+  background-color: #6200ea;
+  color: #fff;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.expansiveBar {
+  height: 0px;
+  background-color: #6200ea;
+  overflow: hidden;
+  transition: "height 0.5s ease-in-out";
+}
+.expansiveBar.active {
+  height: 100px;
+}
